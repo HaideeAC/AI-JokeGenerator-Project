@@ -8,7 +8,6 @@ function showAnswer(response) {
     cursor: null,
     delay: 50,
   });
-  //joke.innerHTML = response.data.answer;
 }
 
 function generateJoke() {
