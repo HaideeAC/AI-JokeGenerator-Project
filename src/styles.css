@@ -1,9 +1,9 @@
 body {
   margin: 0;
   background: radial-gradient(
-    circle at 10% 20%,
-    rgb(253, 203, 50) 0%,
-    rgb(244, 56, 98) 100.2%
+    circle at 20% 20%,
+    rgb(141, 166, 138) 0%,
+    rgb(33, 65, 19) 100.2%
   );
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
@@ -23,35 +23,39 @@ body {
   width: 600px;
   height: 200px;
   border-radius: 20px;
-  box-shadow: 0px 0px 10px #c80a01;
+  box-shadow: 0px 0px 10px rgb(33, 65, 19);
   padding: 10px;
   text-align: center;
 }
 
 button {
   background: white;
-  font-family: "Bungee Tint", sans-serif;
-  font-weight: 400;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px rgb(33, 65, 19);
+  color: rgb(33, 65, 19);
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 19px;
+  font-weight: 500;
   font-style: normal;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin: 20px;
-  border: none;
-  box-shadow: 0px 0px 10px #c80a01;
+  font-variation-settings: "wdth" 100;
 }
 button:hover {
   cursor: pointer;
   background: radial-gradient(
     circle at 10% 20%,
-    rgb(253, 203, 50) 0%,
-    rgb(244, 56, 98) 100.2%
+    rgb(141, 166, 138) 0%,
+    rgb(33, 65, 19) 100.2%
   );
   color: white;
 }
 
 .welcome-message {
-  font-family: "Bungee Tint", sans-serif;
+  color: rgb(33, 65, 19);
+  font-family: "Patrick Hand", cursive;
   font-weight: 400;
+  font-size: 35px;
   font-style: normal;
 }
 
