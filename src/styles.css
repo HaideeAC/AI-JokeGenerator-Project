@@ -1,13 +1,9 @@
 body {
   margin: 0;
-  background: radial-gradient(
-    circle at 20% 20%,
-    rgb(141, 166, 138) 0%,
-    rgb(33, 65, 19) 100.2%
-  );
+  background-image: url(/images/cactus.webp);
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
-  color: white;
+  color: #778E72;
 }
 
 .container {
@@ -19,40 +15,36 @@ body {
 }
 
 .joke-container {
-  background-color: white;
+  background-color: #ffffff;
   width: 600px;
   height: 200px;
   border-radius: 20px;
-  box-shadow: 0px 0px 10px rgb(33, 65, 19);
+  box-shadow: 0px 0px 10px #778E72;
   padding: 10px;
   text-align: center;
 }
 
 button {
-  background: white;
+  border: none;
+  background: #EB9A41;
   padding: 10px 15px;
   border-radius: 10px;
-  box-shadow: 0px 0px 7px rgb(33, 65, 19);
-  color: rgb(33, 65, 19);
-  font-family: "Tourney", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 19px;
-  font-weight: 500;
+  box-shadow: 0px 0px 7px #778E72;
+  color: #ffffff;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-size: 25px;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 button:hover {
   cursor: pointer;
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(141, 166, 138) 0%,
-    rgb(33, 65, 19) 100.2%
-  );
-  color: white;
+  background: #E7E5E1;
+  color: #778E72;
 }
 
 .welcome-message {
-  color: rgb(33, 65, 19);
+  margin-top: 20px;
+  color: #778E72;
   font-family: "Patrick Hand", cursive;
   font-weight: 400;
   font-size: 35px;
@@ -60,7 +52,7 @@ button:hover {
 }
 
 a {
-  color: rgb(253, 203, 50);
+  color: #EB9A41;
 }
 footer {
   position: fixed;
