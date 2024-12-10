@@ -3,7 +3,7 @@ body {
   background-image: url(/images/pic.jpg);
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
-  color: #778E72;
+  color: #ffffff;
 }
 
 .container {
@@ -15,21 +15,21 @@ body {
 }
 
 .joke-container {
-  background-color: #ffffff;
+  background-color: #f5eded;
   width: 600px;
   height: 200px;
   border-radius: 20px;
-  box-shadow: 0px 0px 10px #778E72;
+  box-shadow: 0px 0px 10px #778e72;
   padding: 10px;
   text-align: center;
 }
 
 button {
   border: none;
-  background: #B39085;
+  background: #b39085;
   padding: 10px 15px;
   border-radius: 10px;
-  box-shadow: 0px 0px 7px #778E72;
+  box-shadow: 0px 0px 7px #778e72;
   color: #ffffff;
   font-family: "Patrick Hand", cursive;
   font-weight: 400;
@@ -38,13 +38,13 @@ button {
 }
 button:hover {
   cursor: pointer;
-  background: #E7E5E1;
-  color: #778E72;
+  background: #e7e5e1;
+  color: #778e72;
 }
 
 .welcome-message {
   margin-top: 20px;
-  color: #778E72;
+  color: #778e72;
   font-family: "Patrick Hand", cursive;
   font-weight: 400;
   font-size: 35px;
@@ -52,7 +52,7 @@ button:hover {
 }
 
 a {
-  color: #EB9A41;
+  color: #c6f8de;
 }
 footer {
   position: fixed;
