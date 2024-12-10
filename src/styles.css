@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url(/images/cactus.webp);
+  background-image: url(/images/pic.jpg);
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
   color: #778E72;
@@ -26,7 +26,7 @@ body {
 
 button {
   border: none;
-  background: #EB9A41;
+  background: #B39085;
   padding: 10px 15px;
   border-radius: 10px;
   box-shadow: 0px 0px 7px #778E72;
