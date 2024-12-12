@@ -1,9 +1,25 @@
 body {
   margin: 0;
-  background-image: url(/images/pic.jpg);
+  background-image: url(/images/pic1.jpg);
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
   color: #ffffff;
+}
+
+.doto {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+
+.font1 {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .container {
@@ -15,7 +31,7 @@ body {
 }
 
 .joke-container {
-  background-color: #f5eded;
+  background-color: #00000067;
   width: 600px;
   height: 200px;
   border-radius: 20px;
@@ -26,33 +42,33 @@ body {
 
 button {
   border: none;
-  background: #b39085;
+  background: #e7e5e1;
+  color: #000000;
   padding: 10px 15px;
   border-radius: 10px;
   box-shadow: 0px 0px 7px #778e72;
-  color: #ffffff;
-  font-family: "Patrick Hand", cursive;
-  font-weight: 400;
   font-size: 25px;
-  font-style: normal;
+  
 }
 button:hover {
   cursor: pointer;
-  background: #e7e5e1;
-  color: #778e72;
+  background-color: rgb(5, 0, 5);
+  color: #ffffff;
+  
 }
 
 .welcome-message {
   margin-top: 20px;
-  color: #778e72;
-  font-family: "Patrick Hand", cursive;
-  font-weight: 400;
-  font-size: 35px;
-  font-style: normal;
+  color: #ffffff;
+  font-size: 25px;
 }
 
 a {
-  color: #c6f8de;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+a:hover {
+  color: #b1f21a;
 }
 footer {
   position: fixed;
